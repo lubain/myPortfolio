@@ -29,19 +29,19 @@ let clipNames = [
 let projects = [
   {
     image: 'textures/ChatApp.PNG',
-    url: 'https://www.spaze.social/',
+    url: '#',
   },
   {
-    image: 'textures/Pacman.PNG',
-    url: 'https://myteachers.com.au/',
+    image: 'textures/ASR.PNG',
+    url: '#',
   },
   {
     image: 'textures/Unite.PNG',
-    url: 'https://wholesale.com.np/',
+    url: '#',
   },
   {
-    image: 'textures/Gamejs.PNG',
-    url: 'https://www.peloterosenlaweb.com/',
+    image: 'textures/Madaocs.PNG',
+    url: '#',
   },
 ];
 let aboutCameraPos = {
@@ -125,7 +125,7 @@ gltfLoader.load(
 
     // load video
     const video = document.createElement('video');
-    video.src = 'textures/arcane.mp4';
+    video.src = 'textures/zm_prison_load.webm';
     video.muted = true;
     video.playsInline = true;
     video.autoplay = true;
