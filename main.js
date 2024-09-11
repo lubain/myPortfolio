@@ -125,7 +125,7 @@ gltfLoader.load(
 
     // load video
     const video = document.createElement('video');
-    video.src = 'textures/zm_prison_load.webm';
+    video.src = 'textures/Song_pubgmobile.mp4';
     video.muted = true;
     video.playsInline = true;
     video.autoplay = true;
@@ -184,6 +184,7 @@ gltfLoader.load(
 
       if (child.name === 'Book') {
         bookCover = child.children[0];
+        child.children[0].material.color.set(0x999930);
 
         // adding texture to book
         const bookTexture = new THREE.TextureLoader().load(
@@ -191,7 +192,7 @@ gltfLoader.load(
         );
         bookTexture.flipY = false;
         child.material = new THREE.MeshStandardMaterial({
-          color: 0xffffff,
+          color: 0x999999,
           map: bookTexture,
         });
       }

@@ -13,5 +13,3 @@ Start the development server
 ```sh
 npm run dev
 ```
-
-Preview: https://chimerical-sawine-e5d69e.netlify.app/
