@@ -120,8 +120,6 @@ gltfLoader.setDRACOLoader(dracoLoader);
 gltfLoader.load(
   'models/room.glb',
   function (room) {
-    // hide loader on loade
-    loaderWrapper.style.display = 'none';
 
     // load video
     const video = document.createElement('video');
@@ -203,6 +201,10 @@ gltfLoader.load(
     });
 
     scene.add(room.scene);
+
+    // hide loader on loade
+    loaderWrapper.style.display = 'none';
+    
     animate();
 
     // add animation
