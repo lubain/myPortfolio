@@ -730,11 +730,6 @@ function initResponsive(roomScene) {
       z: 1.57,
     };
 
-    // rect light
-    // rectLight.width = 0.406;
-    // rectLight.height = 0.3;
-    // rectLight.position.z = -0.34;
-
     // project
     projectsCameraPos = {
       x: 1.1,
